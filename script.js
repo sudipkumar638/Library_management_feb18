@@ -64,7 +64,7 @@ submitbutton.addEventListener("click", () => {
         <td>${book?.book_name}</td>
         <td>${book?.issued_to}</td>
         <td >${book?.issued_time}</td>
-        <td class="nreturned">${book?.status} <i  id=${book?.id} onclick="updatestatus(this.id)"   class="fa-solid fa-pen-to-square updateicon"></i></td>
+        <td class=${book?.status == "returned" ? "returned" : "nreturned"}>${book?.status} <i  id=${book?.id} onclick="updatestatus(this.id)"   class="fa-solid fa-pen-to-square updateicon"></i></td>
       </tr>`)
     }).join("")
 
