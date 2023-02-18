@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,600&display=swap");
+* {
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+.bookname {
+  display: flex;
+  align-items: center;
+}
+.issuedto {
+  display: flex;
+  align-items: center;
+}
+
+.firstsection {
+  margin: 50px;
+  color: white;
+}
+
+.heading {
+  margin-bottom: 40px;
+}
+.book-input {
+  margin-left: 20px;
+}
+.issued-input {
+  margin-left: 35px;
+}
+.issuedto {
+  margin-top: 20px;
+}
+.book-input input {
+  height: 40px;
+  width: 300px;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
+.issued-input input {
+  height: 40px;
+  width: 300px;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
+.submitbutton {
+  margin-top: 50px;
+}
+
+#submitbook {
+  height: 40px;
+  width: 407px;
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+.heading p {
+  font-size: 30px;
+}
+table {
+  color: white;
+  border: 1px solid white;
+  border-collapse: collapse;
+  height: 300px;
+  width: 1000px;
+  outline: none;
+}
+.heads td {
+  border: 1px solid white;
+  padding-left: 20px;
+}
+td {
+  border-left: 1px solid white;
+
+  padding: 20px;
+}
+.tablebox {
+  margin: 50px;
+}
+.nreturned {
+  color: red;
+}
+
+.updateicon {
+  color: white;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.returned {
+  color: green;
+}

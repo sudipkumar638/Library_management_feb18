@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="firstsection">
+        <div class="heading"><p>Library Management system</p></div>
+        <div class="bookname">
+          <div class="b-label">
+            <label for="book-name">Book Name</label>
+          </div>
+          <div class="book-input">
+            <input type="text" id="book-name" />
+          </div>
+        </div>
+        <div class="issuedto">
+          <div class="issue-label">
+            <label for="issued-to">Issued To</label>
+          </div>
+          <div class="issued-input">
+            <input type="text" id="issued-to" />
+          </div>
+        </div>
+        <div class="submitbutton">
+          <button id="submitbook">Issue Book</button>
+        </div>
+      </div>
+      <div class="secondsection"></div>
+    </div>
+
+    <div class="tablebox">
+      <table>
+        <thead>
+          <tr class="heads">
+            <td>ID</td>
+            <td>Book Name</td>
+            <td>Issued To</td>
+            <td>Issue Date an time</td>
+            <td>Status</td>
+          </tr>
+        </thead>
+        <tbody id="hello"></tbody>
+      </table>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
